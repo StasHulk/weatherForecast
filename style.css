@@ -1,0 +1,30 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #4A73F9;
+  color:#FFF;
+}
+.container{
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.5s;
+}
+.location{
+  cursor: pointer;
+}
+.card_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card{
+  font-size: 18px;
+  margin: 20px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 7px;
+  background-color: #7CAFC4;
+}
